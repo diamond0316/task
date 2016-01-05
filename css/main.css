@@ -1,0 +1,287 @@
+.max-width-1920px{max-width: 1920px;
+width:100%;}
+.bkgcolor{background-color:#29B078;}
+.num{margin-top:8px;}
+.wrap{width:100%;}
+.icon a{
+    display:inline-block;
+    width:25px;
+    height:25px;
+    margin-top:8px;
+    cursor: pointer;
+    margin-right:10px;
+}
+.icon-wx{background: url(../img/top-logo02.jpg);}
+.icon-qq{background: url(../img/top-logo03.jpg);}
+.icon-wb{background: url(../img/top-logo04.jpg);}
+.icon span{position: relative;top:-10px;}
+.icon span .login{width:auto;display: inline-block;margin-right:0;}
+.container-bgcolor{background-color: #fafafa;}
+nav{background-color: #29B078;}
+nav ul li a{
+    color:#fff;
+    font-size:18px;
+    text-decoration: none;
+}
+.p-12px{
+    font-size:12px;
+}
+.p-16px-B{
+    font-size:16px;
+    font-weight:600;
+    color:inherit;
+}
+.p-16px-a1{
+     font-size:16px;
+     color:#a1a1a1;
+     text-align: justify;
+ }
+.p-14px-a1{
+    font-size:14px;
+    color:#a1a1a1;
+    text-align: justify;
+}
+.p-14px-green{
+    font-size:14px;
+    color:#29B078;
+    text-align:left;
+}
+.font-color-orange{
+    color:#f01400;
+}
+.font-color-999{
+    color:#999;
+}
+.pd-left-40{
+    padding-left:40px;
+}
+.pd-right-35{
+    padding-right:35px;
+}
+.tittle-margin{
+    margin-top:102px;
+    margin-bottom:72px;
+}
+.small-tittle-margin{
+    margin-top:44px;
+    margin-bottom:31px;
+}
+.margin-left-40{
+    margin-left:40px;
+}
+.company-wrap-border{
+    border:1px solid rgba(100,100,100,.3);
+    background-color: #fff;
+    -moz-box-shadow: 0 5px 10px 0 #a1a1a1;
+    -webkit-box-shadow: 0 5px 10px 0 #a1a1a1;
+    box-shadow: 0 5px 10px 0 #a1a1a1;
+}
+.company-hover{
+    border:1px solid transparent;
+}
+.company-hover:hover{
+    border:1px solid rgba(100,100,100,.3);
+    background-color: #fff;
+    -moz-box-shadow: 0 2px 10px 0 #a1a1a1;
+    -webkit-box-shadow: 0 2px 10px 0 #a1a1a1;
+    box-shadow: 0 2px 10px 0 #a1a1a1;
+}
+.company-margin{
+    margin:70px 0 60px;
+}
+.color-green{color:#29B078;}
+.circle{
+    background-color: #ffffff;
+    border:1px solid #a1a1a1;
+    width:72px;
+    height: 72px;
+    border-radius: 50%;
+}
+.list-icon{
+    list-style-image: url("../img/ico_05.png");
+    list-style-position: inside;
+    text-align: center;
+}
+.list-icon li{
+    text-align: left;
+}
+.list-icon li:hover,.list-icon a:hover{
+    list-style-image: url("../img/ico_06.png");
+    color:#ff605E !important;
+}
+.P-margin-top{
+    margin-top:36px;
+}
+img{max-width:100%;}
+.company-top-content{border-bottom:0 !important;border-radius:.5em .5em 0 0 !important;padding: 1.7% 6.8% 0 5.5%;}
+.company-bottom-content{border-radius:0 0 .5em .5em !important;padding: 1.7% 6.8% 12.5% 5.5%;}
+.company-content-font{text-indent:2em;text-align:justify;font-size:14px;line-height: 2;color:#999;}
+.anchor-nav{
+    list-style: none;
+    text-align: left;
+    padding-left:0;
+}
+.anchor-nav li{
+    float:left;
+    margin-right:4.25%;
+}
+.anchor-nav li:hover{
+    color:#fff;
+    background-color: #29B078;
+}
+.anchor-nav li:first-child{
+    color:#999;
+}
+.job-col-border{
+    border:1px solid #edf1f2;
+    border-radius:.5em;
+    background-color: #ffffff;
+}
+.job-col-border-bottom{
+    border-bottom:1px solid #edf1f2;
+}
+.job-col-border-right{
+    border-right:1px solid #edf1f2;
+}
+.job-col-border-left{
+    border-left:1px solid #edf1f2;
+}
+.job-col-padding{padding:14px 15px;}
+/* entire container, keeps perspective */
+.flip-container {
+    perspective: 1000;
+    background-color:#fff;
+    color:#999;
+}
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
+}
+.back{
+    font-size:16px;
+    color: #fff;
+    background-color:#000;
+    overflow:hidden;
+}
+.back p{
+    text-align:center;
+    font-size:16px;
+    font-weight: 600;
+    margin:87px 41px 36px;
+}
+.back p:last-child{
+    line-height: 1.5;
+    margin:0 41px;
+    text-align: justify;
+}
+@media screen and (max-width: 767px) {
+    .icon a{margin-right:0;}
+    .width767-hidden{display: none;}
+    .circle{border:0;
+    background-color:transparent;}
+    .col-border{
+       border:1px solid #eeeded;
+       background-color: #fff;
+       border-radius: .5em;
+       padding:19px 33px 42px;
+       margin:0 2.5px;
+    }
+    .list-wrap{padding-left:10%;margin-top:5.6%;}
+    .flip-container, .front, .back {
+        height:516px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .width767-hidden{
+        margin-top: 0;
+    }
+    .circle{
+        background-color: #ffffff;
+        border:1px solid #a1a1a1;
+        width:50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .pd-left-40{
+        padding-left:30%;
+    }
+    .remove-left{
+        position:relative;
+        left:-10px;
+    }
+    .col-border{
+        border:1px solid #eeeded;
+        background-color: #fff;
+        border-radius: .5em;
+        padding:19px 33px 42px;
+        margin:0 2.5px;
+    }
+    .flip-container, .front, .back {
+        height:516px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .student-border{
+        border:1px solid #eeeded;
+        background-color: #fff;
+        border-radius: .5em;
+        padding:19px 15px 32px;
+        margin:0 2.5px;
+    }
+    .list-wrap{padding-left:34%;margin-top:5.6%;}
+    .col-border{
+        border:1px solid #eeeded;
+        background-color: #fff;
+        border-radius: .5em;
+        padding:19px 33px 42px;
+        margin:0 2.5px;
+    }
+    .flip-container, .front, .back {
+        height:516px;
+    }
+}
+@media (min-width: 1200px){
+    .pd-top-10{
+        padding-top:10px;
+    }
+    h4.color-green{line-height: 3em;}
+    .col-border{
+        border:1px solid #eeeded;
+        background-color: #fff;
+        border-radius: .5em;
+    }
+    .margintop-180{ margin-top:180px;}
+    .list-wrap{padding-left:34%;margin-top:5.6%;}
+    /*职业轮播 div高度*/
+    .flip-container, .front, .back {
+        height:516px;
+    }
+}
+
