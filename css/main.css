@@ -1,6 +1,3 @@
-.max-width-1920px{max-width: 1920px;
-width:100%;}
-.bkgcolor{background-color:#29B078;}
 .num{margin-top:8px;}
 .wrap{width:100%;}
 .icon a{
@@ -16,6 +13,10 @@ width:100%;}
 .icon-wb{background: url(../img/top-logo04.jpg);}
 .icon span{position: relative;top:-10px;}
 .icon span .login{width:auto;display: inline-block;margin-right:0;}
+.login,.login:hover{
+    color:#000 !important;
+}
+
 .container-bgcolor{background-color: #fafafa;}
 nav{background-color: #29B078;}
 nav ul li a{
@@ -23,9 +24,7 @@ nav ul li a{
     font-size:18px;
     text-decoration: none;
 }
-.p-12px{
-    font-size:12px;
-}
+.p-12px{font-size:12px;  }
 .p-16px-B{
     font-size:16px;
     font-weight:600;
@@ -46,18 +45,11 @@ nav ul li a{
     color:#29B078;
     text-align:left;
 }
-.font-color-orange{
-    color:#f01400;
-}
-.font-color-999{
-    color:#999;
-}
-.pd-left-40{
-    padding-left:40px;
-}
-.pd-right-35{
-    padding-right:35px;
-}
+.font-color-orange{color:#f01400;  }
+.font-color-999{ color:#999;  }
+.pd-left-40{padding-left:40px;  }
+.pd-right-35{ padding-right:35px;  }
+.margintop-180{margin-top:45%;}
 .tittle-margin{
     margin-top:102px;
     margin-bottom:72px;
@@ -66,19 +58,13 @@ nav ul li a{
     margin-top:44px;
     margin-bottom:31px;
 }
-.margin-left-40{
-    margin-left:40px;
-}
+.margin-left-40{margin-left:40px; }
 .company-wrap-border{
     border:1px solid rgba(100,100,100,.3);
     background-color: #fff;
-    -moz-box-shadow: 0 5px 10px 0 #a1a1a1;
-    -webkit-box-shadow: 0 5px 10px 0 #a1a1a1;
-    box-shadow: 0 5px 10px 0 #a1a1a1;
+
 }
-.company-hover{
-    border:1px solid transparent;
-}
+.company-hover{border:1px solid transparent;  }
 .company-hover:hover{
     border:1px solid rgba(100,100,100,.3);
     background-color: #fff;
@@ -86,9 +72,9 @@ nav ul li a{
     -webkit-box-shadow: 0 2px 10px 0 #a1a1a1;
     box-shadow: 0 2px 10px 0 #a1a1a1;
 }
-.company-margin{
-    margin:70px 0 60px;
-}
+.company-margin{margin:2px 2px;width:220px;height: 170px;
+display:inline-block;}
+.compant-padding{padding:58px 0 60px;}
 .color-green{color:#29B078;}
 .circle{
     background-color: #ffffff;
@@ -97,21 +83,7 @@ nav ul li a{
     height: 72px;
     border-radius: 50%;
 }
-.list-icon{
-    list-style-image: url("../img/ico_05.png");
-    list-style-position: inside;
-    text-align: center;
-}
-.list-icon li{
-    text-align: left;
-}
-.list-icon li:hover,.list-icon a:hover{
-    list-style-image: url("../img/ico_06.png");
-    color:#ff605E !important;
-}
-.P-margin-top{
-    margin-top:36px;
-}
+.P-margin-top{margin-top:36px;  }
 img{max-width:100%;}
 .company-top-content{border-bottom:0 !important;border-radius:.5em .5em 0 0 !important;padding: 1.7% 6.8% 0 5.5%;}
 .company-bottom-content{border-radius:0 0 .5em .5em !important;padding: 1.7% 6.8% 12.5% 5.5%;}
@@ -129,23 +101,15 @@ img{max-width:100%;}
     color:#fff;
     background-color: #29B078;
 }
-.anchor-nav li:first-child{
-    color:#999;
-}
+.anchor-nav li:first-child{color:#999;  }
 .job-col-border{
     border:1px solid #edf1f2;
     border-radius:.5em;
     background-color: #ffffff;
 }
-.job-col-border-bottom{
-    border-bottom:1px solid #edf1f2;
-}
-.job-col-border-right{
-    border-right:1px solid #edf1f2;
-}
-.job-col-border-left{
-    border-left:1px solid #edf1f2;
-}
+.job-col-border-bottom{ border-bottom:1px solid #edf1f2;  }
+.job-col-border-right{border-right:1px solid #edf1f2;  }
+.job-col-border-left{border-left:1px solid #edf1f2;}
 .job-col-padding{padding:14px 15px;}
 /* entire container, keeps perspective */
 .flip-container {
@@ -201,26 +165,67 @@ img{max-width:100%;}
     margin:0 41px;
     text-align: justify;
 }
-@media screen and (max-width: 767px) {
-    .icon a{margin-right:0;}
-    .width767-hidden{display: none;}
-    .circle{border:0;
-    background-color:transparent;}
-    .col-border{
-       border:1px solid #eeeded;
-       background-color: #fff;
-       border-radius: .5em;
-       padding:19px 33px 42px;
-       margin:0 2.5px;
-    }
-    .list-wrap{padding-left:10%;margin-top:5.6%;}
-    .flip-container, .front, .back {
-        height:516px;
-    }
+.carousel-control{
+    font-size:15em;
 }
-@media (min-width: 768px) and (max-width: 991px) {
-    .width767-hidden{
-        margin-top: 0;
+.advantage-1{
+    height: 260px;
+    margin-top:13.5%;
+    padding:0 45px;
+}
+.advantage-2{
+    height: 260px;
+    margin-top:13.5%;
+    padding:0 45px;
+    padding-left:56px;
+}
+.advantage-3{
+    height: 260px;
+    margin-top:13.5%;
+    padding:0 45px;
+    padding-left:56px;
+}
+.advantage-4{
+    margin-top:15.5%;
+    padding-left:32px;
+    border-left:1px dashed #a1a1a1;
+    height: 150px;
+    text-align: left;
+}
+.advantage-4 div:first-child{
+    padding-top:21px;
+}
+.advantage-4 img{width:13%;}
+.advantage-4 div,.advantage-4 p{font-size:18px;}
+.advantage-1 h4,.advantage-2 h4,.advantage-3 h4,.advantage-4 h4{
+    margin:28px 0 33px;
+}
+.back-button{
+    width:51px;
+    height:51px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    border-radius: 5px;
+    background:#FFFFFF url("../img/back-button.jpg")center center no-repeat;
+}
+#footer-hover a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:661px){
+    li{list-style:none;}
+    .max-width-661-hidden{
+        display:none;
+    }
+    .max-width-661-width{
+        width:100%;
+    }
+    .student-border{
+        border:1px solid #eeeded;
+        background-color: #fff;
+        border-radius: .5em;
+        padding:19px 15px 32px;
+        margin:0 2px;
     }
     .circle{
         background-color: #ffffff;
@@ -229,25 +234,103 @@ img{max-width:100%;}
         height: 50px;
         border-radius: 50%;
     }
-    .pd-left-40{
-        padding-left:30%;
+    .study-margin-top{margin-top:15px;}
+    .pd-top-10{ padding-top:0;  }
+    .max-width-661-width-lineh{
+        line-height: 3;
     }
-    .remove-left{
-        position:relative;
-        left:-10px;
+    .flip-container, .front, .back {
+        height:500px;
     }
     .col-border{
         border:1px solid #eeeded;
         background-color: #fff;
         border-radius: .5em;
         padding:19px 33px 42px;
-        margin:0 2.5px;
+        margin:0;
     }
-    .flip-container, .front, .back {
-        height:516px;
+    footer .col-xs-3,footer .col-xs-6{
+        width:38%;
+        text-align: left;
+    }
+    .associated .col-xs-5,.associated .col-xs-4,.associated .col-xs-3{
+        width:100%;
+        line-height:1.5em !important;
+    }
+    .associated .col-xs-3{margin-bottom: 10px;}
+    .list-icon{
+        list-style:none;
+        list-style-position: inside;
+    }
+    .list-icon li{text-align: center;}
+    .list-icon li:hover,.list-icon a:hover{
+        color:#ff605E !important;}
+    .padding-clear{
+        padding:0;
+    }
+    .p-16px-a1{
+        font-size:16px;
+        color:#a1a1a1;
+        text-align: center;
+    }
+    .advantage-4 img{width:5%;}
+    .advantage-4 .p-16px-a1,.advantage-4{
+        text-align: center;
+    }
+    .sm-margin-top{
+     margin-top:20px;
+    }
+    .col-xs-6{
+        position:inherit;
+    }
+    .tel {
+        position:absolute;
+        top:12px;
+        left:0;
     }
 }
-@media (min-width: 992px) and (max-width: 1199px){
+@media (min-width: 662px) and (max-width: 767px) {
+    .sm-margin-top{
+        margin-top:20px;
+    }
+    .p-16px-a1{
+        font-size:16px;
+        color:#a1a1a1;
+        text-align: center;
+    }
+    .advantage-4 .p-16px-a1{
+        text-align: left;
+    }
+    .icon a{margin-right:0;}
+    .list-icon{
+        list-style-image: url("../img/ico_05.png");
+        list-style-position: inside;
+        text-align: center;
+    }
+    .list-icon li{text-align: left;}
+    .list-icon li:hover,.list-icon a:hover{
+        list-style-image: url("../img/ico_06.png");
+        color:#ff605E !important;
+    }
+    .dropdown{display: none;}
+
+    .width767-hidden{display: none;}
+    .circle{
+        background-color: #ffffff;
+        border:1px solid #a1a1a1;
+        width:50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .study-margin-top{margin-top:25px;}
+    .pd-top-10{ padding-top:0;  }
+    .col-border{
+       border:1px solid #eeeded;
+       background-color: #fff;
+       border-radius: .5em;
+       padding:19px 33px 42px;
+       margin:0 2.5px;
+    }
     .student-border{
         border:1px solid #eeeded;
         background-color: #fff;
@@ -255,7 +338,52 @@ img{max-width:100%;}
         padding:19px 15px 32px;
         margin:0 2.5px;
     }
-    .list-wrap{padding-left:34%;margin-top:5.6%;}
+    .list-wrap{padding-left:10%;margin-top:5.6%;}
+    .flip-container, .front, .back {
+        height:516px;
+    }
+    .small-nav{
+        display:none;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .list-icon{
+        list-style-image: url("../img/ico_05.png");
+        list-style-position: inside;
+        text-align: center;
+    }
+    .list-icon li{text-align: left;}
+    .list-icon li:hover,.list-icon a:hover{
+        list-style-image: url("../img/ico_06.png");
+        color:#ff605E !important;
+    }
+    .carousel-control{
+        font-size:10em;
+    }
+    .dropdown{display: none;}
+    .circle{
+        background-color: #ffffff;
+        border:1px solid #a1a1a1;
+        width:50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .study-margin-top{margin-top:15px;}
+    .pd-top-10{ padding-top:0;  }
+    .pd-left-40{
+        padding-left:30%;
+    }
+    .remove-left{
+        position:relative;
+        left:-10px;
+    }
+    .student-border{
+        border:1px solid #eeeded;
+        background-color: #fff;
+        border-radius: .5em;
+        padding:19px 15px 32px;
+        margin:0 2.5px;
+    }
     .col-border{
         border:1px solid #eeeded;
         background-color: #fff;
@@ -266,22 +394,103 @@ img{max-width:100%;}
     .flip-container, .front, .back {
         height:516px;
     }
+    .small-nav{
+        display:none;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .dropdown{display: none;}
+    .list-icon{
+        list-style-image: url("../img/ico_05.png");
+        list-style-position: inside;
+        text-align: center;
+    }
+    .list-icon li{text-align: left;}
+    .list-icon li:hover,.list-icon a:hover{
+        list-style-image: url("../img/ico_06.png");
+        color:#ff605E !important;
+    }
+    .student-border{
+        border:1px solid #eeeded;
+        background-color: #fff;
+        border-radius: .5em;
+        padding:19px 15px 32px;
+        margin:0 2.5px;
+    }
+    .circle{
+        background-color: #ffffff;
+        border:1px solid #a1a1a1;
+        width:60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    .study-margin-top{margin-top:20px;}
+    .pd-top-10{ padding-top:5px;  }
+    .remove-left{
+        position:relative;
+        left:-5px;
+        top:0;
+    }
+    .list-wrap{padding-left:34%;margin-top:5.6%;}
+    .col-border{
+        border:1px solid #eeeded;
+        background-color: #fff;
+        border-radius: .5em;
+        padding:19px 33px 42px;
+        margin:0 2.5px;
+    }
+    .carousel-control{
+        font-size:12em;
+    }
+    .student-border{
+        border:1px solid #eeeded;
+        background-color: #fff;
+        border-radius: .5em;
+        padding:19px 15px 32px;
+        margin:0 2.5px;
+    }
+    .flip-container, .front, .back {height:516px;}
+    .small-nav{
+        display:none;
+    }
 }
 @media (min-width: 1200px){
-    .pd-top-10{
-        padding-top:10px;
+    .list-icon{
+        list-style-image: url("../img/ico_05.png");
+        list-style-position: inside;
+        text-align: center;
     }
+    .list-icon li{text-align: left;}
+    .list-icon li:hover,.list-icon a:hover{
+        list-style-image: url("../img/ico_06.png");
+        color:#ff605E !important;
+    }
+    .dropdown{display: none;}
+    .pd-top-10{ padding-top:10px;  }
     h4.color-green{line-height: 3em;}
     .col-border{
         border:1px solid #eeeded;
         background-color: #fff;
         border-radius: .5em;
     }
-    .margintop-180{ margin-top:180px;}
+    .student-border{
+        border:1px solid #eeeded;
+        background-color: #fff;
+        border-radius: .5em;
+        padding:19px 15px 32px;
+        margin:0 2.5px;
+    }
+
     .list-wrap{padding-left:34%;margin-top:5.6%;}
     /*职业轮播 div高度*/
     .flip-container, .front, .back {
         height:516px;
+    }
+    .small-nav{
+        display:none;
+    }
+    .study-margin-top{
+        margin-top:94px;
     }
 }
 
